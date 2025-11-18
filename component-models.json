@@ -161,7 +161,7 @@
       {
         "component": "text",
         "name": "titleTxt",
-        "lable": "Title",
+        "label": "Title",
         "valueType": "string"
       }
     ]
