@@ -234,7 +234,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "teaserImgAlt",
+        "name": "teaserImgAltTxt",
         "label": "Alt Text",
         "value": ""
       },
