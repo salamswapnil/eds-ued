@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/eds-ued-local/:/",
-    "/content/eds-ued-local/configuration:/.helix/config.json",
-    "/content/eds-ued-local/metadata:/metadata.json"
+    "/content/eds-ued/:/",
+    "/content/eds-ued/configuration:/.helix/config.json",
+    "/content/eds-ued/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/eds-ued-local/"
+    "/content/eds-ued/"
   ]
 }
