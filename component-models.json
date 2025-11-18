@@ -157,6 +157,12 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "titleTxt",
+        "lable": "Title",
+        "valueType": "string"
       }
     ]
   },
