@@ -159,7 +159,7 @@
         "valueType": "string"
       },
       {
-        "component": "text",
+        "component": "richtext",
         "name": "titleTxt",
         "label": "Title",
         "valueType": "string"
