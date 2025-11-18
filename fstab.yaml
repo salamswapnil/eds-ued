@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p10903-e844381.adobeaemcloud.com/salamswapnil/eds-ued/main"
+    url: "https://author-p10903-e844381.adobeaemcloud.com/bin/franklin.delivery/salamswapnil/eds-ued/main"
     type: "markup"
     suffix: ".html"
