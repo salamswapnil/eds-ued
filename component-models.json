@@ -281,21 +281,14 @@
         "valueType": "string"
       },
       {
+        "component": "text",
+        "name": "linkText",
+        "label": "Link Text"
+      },
+      {
         "component": "aem-content",
-        "name": "cta",
-        "label": "Call to Action",
-        "fields": [
-          {
-            "component": "text",
-            "name": "text",
-            "label": "Link Text"
-          },
-          {
-            "component": "aem-content",
-            "name": "link",
-            "label": "Link URL"
-          }
-        ]
+        "name": "link",
+        "label": "Link URL"
       }
     ]
   }
