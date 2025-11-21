@@ -255,20 +255,22 @@
         "valueType": "string",
         "name": "image",
         "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
+        "multi": false,
+        "fields": [
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "imageAlt",
+            "label": "Alt",
+            "value": ""
+          }
+        ]
       },
       {
         "component": "text",
         "name": "title",
         "value": "",
-        "label": "Tile",
+        "label": "Title",
         "valueType": "string"
       },
       {
@@ -279,14 +281,21 @@
         "valueType": "string"
       },
       {
-        "component": "text",
-        "name": "cTaText",
-        "label": "Link Text"
-      },
-      {
         "component": "aem-content",
-        "name": "ctaLink",
-        "label": "Link Url"
+        "name": "cta",
+        "label": "Call to Action",
+        "fields": [
+          {
+            "component": "text",
+            "name": "text",
+            "label": "Link Text"
+          },
+          {
+            "component": "aem-content",
+            "name": "link",
+            "label": "Link URL"
+          }
+        ]
       }
     ]
   }
