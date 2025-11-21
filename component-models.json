@@ -265,30 +265,28 @@
         "value": ""
       },
       {
-        "component": "richtext",
-        "name": "text",
+        "component": "text",
+        "name": "title",
         "value": "",
-        "label": "Text",
+        "label": "Tile",
         "valueType": "string"
       },
       {
-        "name": "ctas",
-        "label": "CTAs",
-        "type": "object",
-        "multi": true,
-        "fields": [
-          {
-            "name": "label",
-            "label": "CTA Label",
-            "type": "string",
-            "required": true
-          },
-          {
-            "name": "href",
-            "label": "CTA Link",
-            "type": "link"
-          }
-        ]
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "cTaText",
+        "label": "Link Text"
+      },
+      {
+        "component": "aem-content",
+        "name": "ctaLink",
+        "label": "Link Url"
       }
     ]
   }
