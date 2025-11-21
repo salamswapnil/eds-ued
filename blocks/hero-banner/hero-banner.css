@@ -1,5 +1,110 @@
 .hero-banner {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  position: relative;      /* crucial: anchor for absolute overlay */
+  overflow: hidden;
+}
+
+/* After JS ran */
+.hero-banner.hero-banner-initialized {
+  display: block;
+}
+
+/* IMAGE AREA */
+.hero-banner-media {
+  width: 100%;
+}
+
+.hero-banner-media picture,
+.hero-banner-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* OVERLAY CONTENT */
+.hero-banner-content {
+  position: absolute;      /* sits on top of the image */
+  inset: 0;                /* top:0; right:0; bottom:0; left:0 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: flex-start; /* left align (use center if you want centered hero) */
+  padding: 3rem;
+  max-width: 60rem;
+  pointer-events: none;    /* so overlay itself doesn't block clicks */
+}
+
+/* allow interaction for inner elements */
+.hero-banner-title,
+.hero-banner-description,
+.hero-banner-ctas {
+  pointer-events: auto;
+}
+
+/* TITLE */
+.hero-banner-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-banner-title p {
+  margin: 0;
+}
+
+/* DESCRIPTION */
+.hero-banner-description {
+  color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero-banner-description p {
+  margin: 0;
+}
+
+/* CTA AREA */
+.hero-banner-ctas {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-banner-ctas .button-container {
+  margin: 0;
+}
+
+.hero-banner-ctas .button {
+  display: inline-block;
+  padding: 0.7rem 1.8rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+.hero-banner-ctas .button:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-banner-content {
+    padding: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .hero-banner-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-banner-description {
+    font-size: 1rem;
+  }
 }
