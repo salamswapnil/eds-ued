@@ -348,7 +348,8 @@
       {
         "component": "text",
         "name": "buttonText",
-        "label": "Button Text"
+        "label": "Button Text",
+        "valueType": "string"
       },
       {
         "component": "aem-content",
