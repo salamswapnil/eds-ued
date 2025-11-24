@@ -349,7 +349,7 @@
     "fields": [
       {
         "component": "text",
-        "name": "test",
+        "name": "buttonText",
         "value": "",
         "label": "Button Text",
         "valueType": "string"
