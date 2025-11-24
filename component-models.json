@@ -298,7 +298,7 @@
       {
         "component": "tab",
         "label": "Banner Image",
-        "name": "bannerImage"
+        "name": "bannerImageTab"
       },
       {
         "component": "reference",
@@ -349,7 +349,7 @@
     "fields": [
       {
         "component": "text",
-        "name": "buttonText",
+        "name": "buttonCtaText",
         "value": "",
         "label": "Button Text",
         "valueType": "string"
@@ -357,7 +357,8 @@
       {
         "component": "aem-content",
         "name": "buttonLink",
-        "label": "Button Link"
+        "label": "Button Link",
+        "valueType": "string"
       }
     ]
   }
