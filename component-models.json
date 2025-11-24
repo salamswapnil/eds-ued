@@ -345,7 +345,7 @@
     ]
   },
   {
-    "id": "hero-banner-labels",
+    "id": "hero-banner-labels-item",
     "fields": [
       {
         "component": "aem-content",
