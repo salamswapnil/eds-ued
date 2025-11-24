@@ -343,5 +343,16 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "hero-banner-labels-item",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "buttonLink",
+        "label": "Button Link",
+        "valueType": "string"
+      }
+    ]
   }
 ]
