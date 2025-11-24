@@ -45,7 +45,8 @@
   {
     "id": "herobanner",
     "components": [
-      "hero-banner-labels-item"
+      "hero-banner-labels-item",
+      "card"
     ]
   }
 ]
