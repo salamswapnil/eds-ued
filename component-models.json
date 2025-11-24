@@ -345,12 +345,20 @@
     ]
   },
   {
-    "id": "hero-banner-labels-item",
+    "id": "hero-banner-labels",
     "fields": [
       {
         "component": "aem-content",
         "name": "buttonLink",
+        "value": "",
         "label": "Button Link",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "test",
+        "value": "",
+        "label": "Test",
         "valueType": "string"
       }
     ]

@@ -211,7 +211,7 @@
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Hero Banner Labels Item",
-                  "model": "hero-banner-labels-item"
+                  "model": "hero-banner-labels"
                 }
               }
             }
