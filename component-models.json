@@ -349,13 +349,13 @@
     "fields": [
       {
         "component": "text",
-        "name": "linkText",
-        "label": "Link Text"
+        "name": "buttonText",
+        "label": "Button Text"
       },
       {
         "component": "aem-content",
-        "name": "link",
-        "label": "Link URL"
+        "name": "buttonLink",
+        "label": "Button Link"
       }
     ]
   }
