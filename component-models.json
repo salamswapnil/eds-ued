@@ -349,7 +349,7 @@
     "fields": [
       {
         "component": "text",
-        "name": "buttonText",
+        "name": "linkText",
         "label": "Button Text"
       },
       {
