@@ -303,16 +303,18 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "heroBannerImage",
+        "name": "bannerImage",
         "label": "Banner Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "heroBannerImageAlt",
-        "label": "Alt Text",
-        "value": ""
+        "multi": false,
+        "fields": [
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "bannerImageAlt",
+            "label": "Alt Text",
+            "value": ""
+          }
+        ]
       },
       {
         "component": "tab",
@@ -349,8 +351,8 @@
         "component": "text",
         "name": "buttonText",
         "value": "",
-        "valueType": "string",
-        "label": "Button Text"
+        "label": "Button Text",
+        "valueType": "string"
       },
       {
         "component": "aem-content",
