@@ -291,5 +291,70 @@
         "label": "Link URL"
       }
     ]
+  },
+  {
+    "id": "herobanner",
+    "fields": [
+      {
+        "component": "tab",
+        "label": "Banner Image",
+        "name": "bannerImage"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "heroBannerImage",
+        "label": "Banner Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heroBannerImageAlt",
+        "label": "Alt Text",
+        "value": ""
+      },
+      {
+        "component": "tab",
+        "label": "Banner Items",
+        "name": "bannerItems"
+      },
+      {
+        "component": "text",
+        "name": "heading",
+        "value": "",
+        "label": "Heading",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "subHeading",
+        "value": "",
+        "label": "Sub Heading (Optional)",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "bannerItemsHeading",
+        "value": "",
+        "label": "Banner Items Heading",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "hero-banner-labels-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "buttonText",
+        "label": "Button Text"
+      },
+      {
+        "component": "aem-content",
+        "name": "buttonLink",
+        "label": "Button Link"
+      }
+    ]
   }
 ]

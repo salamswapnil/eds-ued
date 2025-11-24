@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "teaser",
-      "hero-banner"
+      "hero-banner",
+      "herobanner"
     ]
   },
   {
@@ -39,6 +40,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "herobanner",
+    "components": [
+      "hero-banner-labels-item"
     ]
   }
 ]

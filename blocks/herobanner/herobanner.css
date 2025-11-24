@@ -1,0 +1,4 @@
+.herobanner {
+  position: relative;      /* crucial: anchor for absolute overlay */
+  overflow: hidden;
+}
