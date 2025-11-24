@@ -348,17 +348,17 @@
     "id": "hero-banner-labels-item",
     "fields": [
       {
+        "component": "text",
+        "name": "test",
+        "value": "",
+        "label": "Button Text",
+        "valueType": "string"
+      },
+      {
         "component": "aem-content",
         "name": "buttonLink",
         "value": "",
         "label": "Button Link",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "test",
-        "value": "",
-        "label": "Test",
         "valueType": "string"
       }
     ]
