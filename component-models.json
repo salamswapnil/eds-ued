@@ -50,6 +50,7 @@
       {
         "component": "select",
         "name": "titleType",
+        "value": "h1",
         "label": "Title Type",
         "options": [
           {
