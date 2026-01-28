@@ -14,3 +14,7 @@ indices:
       robots:
         select: head > meta[name="robots"]
         value: attribute(el, "content")
+      title:
+        select: main h1:first-of-type
+        value: |
+          textContent(el)    
