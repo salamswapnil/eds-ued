@@ -25,6 +25,6 @@ indices:
         value: |
           textContent(el)
       hero_text:
-        select: p
+        select: div
         value: Array.from(els).map(el => textContent(el)).join(' ')
 
