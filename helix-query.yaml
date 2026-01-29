@@ -21,6 +21,6 @@ indices:
         value: |
           textContent(el)
       card_body_text:
-        select: main .cards-wrapper .cards .cards-card-body p
+        select: main .cards-wrapper .cards .cards-card-body p:first-of-type
         value: |
           textContent(el)
