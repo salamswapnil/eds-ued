@@ -27,5 +27,5 @@ indices:
       hero_text:
         select: div
         value: |
-          replaceAll(el, '/\n', ' ')
+          replaceAll(el, 'My Title', ' Test Replace ')
 
