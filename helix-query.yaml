@@ -25,6 +25,6 @@ indices:
         value: |
           textContent(el)
       hero_txt:
-        select: main .hero-wrapper .hero.block p
-        value: |
-          textContent(el)
+        select: p
+        value: Array.from(els).map(el => el.textContent).join(' ')
+
