@@ -24,7 +24,7 @@ indices:
         select: main h4#headline
         value: |
           textContent(el)
-      hero_txt:
+      hero_text:
         select: p
-        value: Array.from(els).map(el => el.textContent).join(' ')
+        value: Array.from(els).map(el => textContent(el)).join(' ')
 
