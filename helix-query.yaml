@@ -25,7 +25,7 @@ indices:
         value: |
           textContent(el)
       hero_text:
-        select: div
+        select: main div
         value: |
-          replaceAll(el, 'My Title', ' Test Replace ')
+          textContent(el)
 
