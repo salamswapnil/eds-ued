@@ -24,3 +24,11 @@ indices:
         select: main .cards-card-body:first-of-type p
         value: |
           textContent(el)
+      card_body_text:
+        select: main .cards-wrapper .cards li > .cards-card-body:first-of-type p
+        value: |
+          textContent(el)
+      card_body_text_all:
+        select: main .cards-card-body p
+        value: |
+          textContent(el)
