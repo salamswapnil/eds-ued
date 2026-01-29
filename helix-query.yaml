@@ -25,7 +25,7 @@ indices:
         value: |
           textContent(el)
       all_div:
-        select: main p
+        select: main div
         value: |
           textContent(el)
       all_p:
