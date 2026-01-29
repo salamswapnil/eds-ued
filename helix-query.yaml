@@ -20,3 +20,7 @@ indices:
         select: main h1:first-of-type
         value: |
           textContent(el)
+      card_body_text:
+        select: main .cards .cards-card-body
+        value: |
+          textContent(el)
