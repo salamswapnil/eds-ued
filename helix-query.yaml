@@ -24,8 +24,13 @@ indices:
         select: main h4#headline
         value: |
           textContent(el)
-      hero_text:
-        select: main div
+      all_div:
+        select: main p
         value: |
           textContent(el)
+      all_p:
+        select: main p
+        value: |
+          textContent(el)
+      
 
