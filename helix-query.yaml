@@ -25,6 +25,6 @@ indices:
         value: |
           textContent(el)
       hero_txt:
-        select: main .hero-wrapper .hero.block > div:last-of-type > div > p
+        select: main .hero-wrapper .hero.block p
         value: |
           textContent(el)
