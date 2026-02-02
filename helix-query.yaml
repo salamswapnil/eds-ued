@@ -23,11 +23,11 @@ indices:
       headline:
         select: main h4#headline
         value: |
-          replaceAll(el, 'Headline', 'new text')
+          textContent(el)
       all_div:
         select: main div
         value: |
-          replaceAll(textContent(el), 'Headline', 'new text')
+          textContent(el)
       all_p:
         select: main p
         value: |
