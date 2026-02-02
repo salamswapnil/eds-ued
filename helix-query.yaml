@@ -27,7 +27,7 @@ indices:
       all_div:
         select: main div
         value: |
-          replaceAll(el, "\n", " ")
+          textContent(replaceAll(el,"\n", " "))
       all_p:
         select: main p
         value: |
