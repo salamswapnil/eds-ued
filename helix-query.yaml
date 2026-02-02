@@ -27,7 +27,7 @@ indices:
       all_div:
         select: main div
         value: |
-          join(replaceAll(map(textContent, el), "\n", " "), " ")
+          replaceAll(textContent(el), 'Headline', 'new text')
       all_p:
         select: main p
         value: |
